@@ -63,7 +63,7 @@ function App() {
           </div>
             <div className="time">
             {
-              (weather.timezone / 3600 > -6 & weather.timezone / 3600 < 10) ?
+              (weather.timezone / 3600 > -6 & weather.timezone / 3600 < 9) ?
               'День' : 'Ночь'              
             }
             </div>
